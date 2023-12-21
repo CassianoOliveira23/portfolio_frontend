@@ -42,30 +42,31 @@ nav a:hover {
 .whatsapp-link{
     display: inline-block;
     position: fixed;
-    width:90px;
-    height: 90px;
+    width:70px;
+    height: 70px;
     bottom: 40px;
     right: 40px;
+    text-align: center;
     background-color: #25d366;
     border-radius: 50%;
     box-shadow: 1px 1px 2px #888;
     z-index: 1000;
-    transition: background-color 0.3s ease;
 }
 
 .whatsapp-link img{
-    width: 90px;
-    height: 90px;
+    align-items: center;
+    width: 65px;
+    height: 65px;
     bottom: 40px;
     right: 40px;
     border-radius: 50px;
     background-color: #25d366;
+    margin-top: 2px;
 }
 
 .whatsapp-button:hover {
     scale: 2.9;
-    transition: .5s;
-    
+    transition: .5s; 
 }
 
 
@@ -200,6 +201,20 @@ footer {
     }
 }
 @media screen and (max-width: 450px){
+    .whatsapp-link {
+        width: 40px;
+        height: 40px;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .whatsapp-link img {
+        width: 30px; 
+        height: 30px;
+        margin-top: 5px;
+    }
+   
+
     footer{
         flex-direction: column;
     }
