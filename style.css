@@ -38,6 +38,39 @@ nav a:hover {
     color: #333;
 }
 
+
+.whatsapp-link{
+    display: inline-block;
+    position: fixed;
+    width:90px;
+    height: 90px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-link img{
+    width: 90px;
+    height: 90px;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 50px;
+    background-color: #25d366;
+}
+
+.whatsapp-button:hover {
+    scale: 2.9;
+    transition: .5s;
+    
+}
+
+
+
+
 main {
     display: flex;
     align-items: center;
