@@ -31,11 +31,12 @@ nav a {
     color: #fff;
     text-decoration: none;
     padding: 10px;
+    border-radius: 5px;
 }
 
 nav a:hover {
-    background-color: #fff;
-    color: #333;
+    background-color: #424242;
+  
 }
 
 
@@ -67,6 +68,27 @@ nav a:hover {
 .whatsapp-button:hover {
     scale: 2.9;
     transition: .5s; 
+}
+
+#flutuar{
+    animation-name: flutuar;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes flutuar{
+    from{
+        transform: translate3d(0, 0, 0);
+        filter: brightness(100%);
+    }
+    to {
+        transform: translate3d(0, -15px, 0);
+        filter: brightness(110%);
+
+    }
 }
 
 
@@ -204,7 +226,7 @@ footer {
     .whatsapp-link {
         width: 40px;
         height: 40px;
-        bottom: 10px;
+        bottom: 20px;
         right: 10px;
     }
 
