@@ -260,11 +260,18 @@ footer {
         align-items: center;
     }
 
+    .about .btn-social {
+        margin: 0 auto;
+        text-align: center;
+    }
+
     .about .btn-social button{
         width: 48px;
         height: 48px;
+        border-radius: 50%;
         text-align: center;
         font-size: 28px;
+        background-color: rgb(46, 46, 46);
     } 
 
 
