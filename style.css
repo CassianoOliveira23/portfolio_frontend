@@ -129,8 +129,6 @@ section h2 {
     margin: 20px 2%; 
 }
 
-
-
 .projeto img {
     max-width: 100%;
     height: auto;
@@ -175,9 +173,9 @@ section h2 {
     width: 115px;
     height: 100px;
     cursor: pointer;
-    /* border: 1px solid #909090;
+    border: 1px solid #909090;
     border-radius: 10px;
-    box-shadow: 0 0 15px #afafaf; */
+    box-shadow: 0 0 15px #afafaf;
 }
 
 .stacks ul li{
@@ -247,12 +245,14 @@ footer {
     .about{
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
     .projetos{
         flex-direction: column;
         align-items: center;
     }
 }
+
 
 @media screen and (max-width: 450px){
     .header-inner-content{
@@ -263,13 +263,20 @@ footer {
     .about .btn-social button{
         width: 48px;
         height: 48px;
+        text-align: center;
+        font-size: 28px;
     } 
 
-   
+
+    .text {
+        padding-left: 0;
+    }
+
 
     .stacks{
         max-width: 450px;
         justify-content: center; 
+
     }
     
     .stacks img{
