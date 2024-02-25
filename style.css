@@ -260,19 +260,12 @@ footer {
         align-items: center;
     }
 
-    .whatsapp-link {
-        width: 40px;
-        height: 40px;
-        bottom: 20px;
-        right: 10px;
-    }
+    .about .btn-social button{
+        width: 48px;
+        height: 48px;
+    } 
 
-    .whatsapp-link img {
-        width: 30px; 
-        height: 30px;
-        margin-top: 5px;
-    }
-
+   
 
     .stacks{
         max-width: 450px;
