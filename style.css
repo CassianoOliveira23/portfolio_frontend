@@ -104,8 +104,8 @@ section h2 {
 }
 
 .foto img{
-    width: 230px;
-    border-radius: 10px;
+    width: 350px;
+    /* border-radius: 10px; */
 }
 .about{
     padding: 20px;
@@ -269,6 +269,11 @@ footer {
 
 
 @media screen and (max-width: 450px){
+
+    .foto img{
+        width: 250px;
+    }
+
     .header-inner-content{
         justify-content: center;
         align-items: center;
